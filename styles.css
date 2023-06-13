@@ -27,3 +27,8 @@ body {
   padding: 16px 0;
   text-align: center;
 }
+
+.chatbot header  h2 {
+  color: #fff;
+  font-size: 1.4rem;
+}

@@ -43,6 +43,18 @@ body {
   display: flex;
 }
 
+.chatbox .incoming span {
+  height: 32px;
+  width: 32px;
+  color: #fff;
+  align-self: flex-end;
+  background-color: #42b0ff;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  margin: 0 10px 7px 0;
+}
+
 .chatbox .outgoing {
   margin: 20px 0;
   justify-content: flex-end;

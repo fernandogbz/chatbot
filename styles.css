@@ -95,3 +95,13 @@ body {
   resize: none;
   padding: 16px 15px 16px 0;
 }
+
+.chat-input span {
+  align-self: flex-end;
+  height: 55px;
+  line-height: 55px;
+  color: #42b0ff;
+  font-size: 1.35rem;
+  cursor: pointer;
+  visibility: hidden;
+}

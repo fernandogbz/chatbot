@@ -19,6 +19,9 @@ body {
   width: 50px;
   color: #fff;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   outline: none;
   cursor: pointer;
   background-color: #42b0ff;

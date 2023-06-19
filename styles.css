@@ -79,6 +79,7 @@ body {
   top: 50%;
   color: #fff;
   cursor: pointer;
+  display: none;
   transform: translateY(-50%);
 }
 
@@ -170,5 +171,9 @@ body {
 
   .chatbot .chatbox {
     height: 90%;
+  }
+
+  .chatbot header span {
+    display: block;
   }
 }

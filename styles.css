@@ -22,7 +22,11 @@ body {
   outline: none;
   cursor: pointer;
   background-color: #42b0ff;
-  
+  border-radius: 50%;
+}
+
+.chatbot-toggler span {
+  position: absolute;
 }
 
 .chatbot {

@@ -157,4 +157,8 @@ body {
     height: 100%;
     border-radius: 0;
   }
+
+  .chatbot .chatbox {
+    height: 90%;
+  }
 }

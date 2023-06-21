@@ -3,8 +3,10 @@ const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage;
 
-const createChatLi = () => {
+const createChatLi = (message, className) => {
   const chatLi = document.createElement("li");
+  chatLi.classList.add("chat", className);
+  
 }
 
 const handleChat = () => {

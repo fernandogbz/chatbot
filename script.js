@@ -5,7 +5,9 @@ let userMessage;
 
 const handleChat = () => {
   userMessage = chatInput.value.trim();
-  if(!userMessage) return; // return if the chat input field is empty 
+  if(!userMessage) return; // return if the chat input field is empty
+  
+  createChatLi(userMessage, "outgoing");
 }
 
 sendChatBtn.addEventListener("click", handleChat);

@@ -4,7 +4,7 @@ const sendChatBtn = document.querySelector(".chat-input span");
 let userMessage;
 
 const createChatLi = () => {
-  
+  const chatLi = document.createElement("li");
 }
 
 const handleChat = () => {

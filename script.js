@@ -3,6 +3,10 @@ const sendChatBtn = document.querySelector(".chat-input span");
 
 let userMessage;
 
+const createChatLi = () => {
+  
+}
+
 const handleChat = () => {
   userMessage = chatInput.value.trim();
   if(!userMessage) return; // return if the chat input field is empty

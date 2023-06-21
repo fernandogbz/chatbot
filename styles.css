@@ -24,6 +24,7 @@ body {
   justify-content: center;
   outline: none;
   cursor: pointer;
+  user-select: none;
   background-color: #42b0ff;
   border-radius: 50%;
 }
@@ -72,6 +73,7 @@ body {
 .chatbot header  h2 {
   color: #fff;
   font-size: 1.4rem;
+  user-select: none;
 }
 
 .chatbot header span {
@@ -154,6 +156,7 @@ body {
   color: #42b0ff;
   font-size: 1.35rem;
   cursor: pointer;
+  user-select: none;
   visibility: hidden;
 }
 

@@ -3,3 +3,5 @@
 Technologies:
 <br>
 • HTML
+<br>
+• CSS

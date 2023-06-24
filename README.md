@@ -2,3 +2,4 @@
 
 Technologies:
 <br>
+• HTML

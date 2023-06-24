@@ -5,3 +5,6 @@ Technologies:
 • HTML
 <br>
 • CSS
+<br>
+• JavaScript
+

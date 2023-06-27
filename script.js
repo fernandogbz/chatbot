@@ -3,6 +3,7 @@ const sendChatBtn = document.querySelector(".chat-input span");
 const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
+const API_KEY = "";
 
 const createChatLi = (message, className) => {
   // Create a chat <li> element with passed message and className
@@ -20,8 +21,12 @@ const generateResponse = () => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer ${}`
-    }
+      "Authorization": `Bearer ${API_KEY}`
+    },
+    body: JSON.stringify({
+      model: "gpt-3.5-turbo",
+      messages:[{role: "user", content: userMessage}]
+    })
   }
 }
 

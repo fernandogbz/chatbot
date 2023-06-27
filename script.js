@@ -14,7 +14,8 @@ const createChatLi = (message, className) => {
 }
 
 const generateResponse = () => {
-  
+  const API_URL = "https://api.openai.com/v1/chat/completions";
+
 }
 
 const handleChat = () => {

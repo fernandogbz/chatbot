@@ -13,6 +13,10 @@ const createChatLi = (message, className) => {
   return chatLi;
 }
 
+const generateResponse = () => {
+  
+}
+
 const handleChat = () => {
   userMessage = chatInput.value.trim();
   if(!userMessage) return; // return if the chat input field is empty
@@ -23,6 +27,7 @@ const handleChat = () => {
   setTimeout(() => {
     // Display "Thinking..." message while waiting for the response
     chatbox.appendChild(createChatLi("Thinking...", "incoming"));
+    generateResponse();
   }, 600);
 }
 

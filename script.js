@@ -17,7 +17,8 @@ const handleChat = () => {
   userMessage = chatInput.value.trim();
   if(!userMessage) return; // return if the chat input field is empty
   
-  createChatLi(userMessage, "outgoing");
+  // Append the user's message to the chatbox
+  chatbox.appendChild(createChatLi(userMessage, "outgoing"));
 }
 
 sendChatBtn.addEventListener("click", handleChat);

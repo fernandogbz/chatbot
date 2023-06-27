@@ -16,6 +16,13 @@ const createChatLi = (message, className) => {
 const generateResponse = () => {
   const API_URL = "https://api.openai.com/v1/chat/completions";
 
+  const requestOptions = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "Authorization": `Bearer ${}`
+    }
+  }
 }
 
 const handleChat = () => {

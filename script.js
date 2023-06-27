@@ -28,6 +28,13 @@ const generateResponse = () => {
       messages:[{role: "user", content: userMessage}]
     })
   }
+
+  // Send POST request to API, get response
+  fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
+    console.log(data);
+  }).catch((error) => {
+    console.log(error);
+  })
 }
 
 const handleChat = () => {

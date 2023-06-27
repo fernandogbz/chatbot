@@ -16,6 +16,7 @@ const createChatLi = (message, className) => {
 
 const generateResponse = () => {
   const API_URL = "https://api.openai.com/v1/chat/completions";
+  const messageElement = 
 
   const requestOptions = {
     method: "POST",
@@ -46,8 +47,9 @@ const handleChat = () => {
   
   setTimeout(() => {
     // Display "Thinking..." message while waiting for the response
-    chatbox.appendChild(createChatLi("Thinking...", "incoming"));
-    generateResponse();
+    const incomingChatLi = (createChatLi("Thinking...", "incoming"));
+    chatbox.appendChild(incomingChatLi)
+    generateResponse(incomingChatLi);
   }, 600);
 }
 

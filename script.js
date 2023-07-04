@@ -3,7 +3,7 @@ const sendChatBtn = document.querySelector(".chat-input span");
 const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
-const API_KEY = "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";
+const API_KEY = "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";
 
 const createChatLi = (message, className) => {
   // Create a chat <li> element with passed message and className
@@ -48,7 +48,7 @@ const handleChat = () => {
   setTimeout(() => {
     // Display "Thinking..." message while waiting for the response
     const incomingChatLi = (createChatLi("Thinking...", "incoming"));
-    chatbox.appendChild(incomingChatLi)
+    chatbox.appendChild(incomingChatLi);
     generateResponse(incomingChatLi);
   }, 600);
 }

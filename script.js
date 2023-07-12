@@ -3,7 +3,7 @@ const sendChatBtn = document.querySelector(".chat-input span");
 const chatbox = document.querySelector(".chatbox");
 
 let userMessage;
-const API_KEY = "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";
+const API_KEY = "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";
 
 const createChatLi = (message, className) => {
   // Create a chat <li> element with passed message and className
@@ -34,7 +34,7 @@ const generateResponse = (incomingChatLi) => {
   fetch(API_URL, requestOptions).then(res => res.json()).then(data => {
     console.log(data);
   }).catch((error) => {
-    console.log(error);
+    console.log(error, message);
   })
 }
 
